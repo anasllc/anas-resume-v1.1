@@ -217,14 +217,14 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me an email{" "}
+                Want to chat? Just shoot me an{" "}
                 <Link
                   href={DATA.contact.social.email.url}
                   className="text-blue-500 hover:underline"
                 >
-                  to me
+                  email
                 </Link>{" "}
-                and I&apos;ll respond whenever I as soon as I can.
+                and I&apos;ll respond as soon as I can.
               </p>
             </div>
           </BlurFade>
