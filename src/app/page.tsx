@@ -113,23 +113,23 @@ export default function Page() {
         </div>
       </section>
       <section id="featured">
-  <BlurFade delay={BLUR_FADE_DELAY * 11}>
-    <h2 className="text-xl font-bold pb-2">Featured</h2>
-  </BlurFade>
-  <BlurFade delay={BLUR_FADE_DELAY * 12}>
-    <div className="flex flex-row gap-x-4">
-      {DATA.featured.map((featured) => (
-        <FeaturedCard
-          key={featured.description}
-          logoUrl={featured.logoUrl}
-          altText={featured.altText}
-          description={featured.description}
-          href={featured.href}
-        />
-      ))}
-    </div>
-  </BlurFade>
-</section>
+        <BlurFade delay={BLUR_FADE_DELAY * 11}>
+          <h2 className="text-xl font-bold pb-2">Featured</h2>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 12}>
+          <div className="flex flex-row gap-x-4">
+            {DATA.featured.map((featured) => (
+              <FeaturedCard
+                key={featured.description}
+                logoUrl={featured.logoUrl}
+                altText={featured.altText}
+                description={featured.description}
+                href={featured.href}
+              />
+            ))}
+          </div>
+        </BlurFade>
+      </section>
 
       <section id="projects">
         <div className="space-y-12 w-full py-12">
@@ -143,7 +143,8 @@ export default function Page() {
                   Check out some of my works
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve written over 1500+ published articles on wide array of topics, largely in crypto, web3 & blockchain.
+                  I&apos;ve written over 1500+ published articles on wide array
+                  of topics, largely in crypto, web3 & blockchain.
                 </p>
               </div>
             </div>
@@ -216,7 +217,7 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a email{" "}
+                Want to chat? Just shoot me an email{" "}
                 <Link
                   href={DATA.contact.social.email.url}
                   className="text-blue-500 hover:underline"
