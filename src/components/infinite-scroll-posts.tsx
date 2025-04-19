@@ -1,30 +1,36 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import BlurFade from "@/components/magicui/blur-fade";
 import Link from "next/link";
 import { BlogPost } from "@/lib/wp-client";
 
 const BLUR_FADE_DELAY = 0.04;
 
+interface InfiniteScrollProps {
+  initialPosts: BlogPost[];
+  apiPath: string; // New prop to determine API route
+  basePath: string; // New prop for URL paths
+}
+
 export function InfiniteScrollPosts({
   initialPosts,
-}: {
-  initialPosts: BlogPost[];
-}) {
+  apiPath,
+  basePath,
+}: InfiniteScrollProps) {
   const [posts, setPosts] = useState<BlogPost[]>(initialPosts);
-  const [page, setPage] = useState(2); // Start loading from page 2
+  const [page, setPage] = useState(2);
   const [isLoading, setIsLoading] = useState(false);
   const [hasMore, setHasMore] = useState(true);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
 
-  const loadMorePosts = async () => {
+  const loadMorePosts = useCallback(async () => {
     if (isLoading || !hasMore) return;
 
     setIsLoading(true);
     try {
       const res = await fetch(
-        `/api/blog-posts?page=${page}` // Create API route to handle large responses
+        `${apiPath}?page=${page}` // Use dynamic API path
       );
 
       if (!res.ok) throw new Error(`Failed to fetch posts: ${res.status}`);
@@ -41,7 +47,7 @@ export function InfiniteScrollPosts({
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [page, isLoading, hasMore, apiPath]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -58,7 +64,7 @@ export function InfiniteScrollPosts({
     }
 
     return () => observer.disconnect();
-  }, [isLoading, hasMore]);
+  }, [loadMorePosts, hasMore, isLoading]);
 
   return (
     <section>
@@ -70,7 +76,7 @@ export function InfiniteScrollPosts({
         <BlurFade delay={BLUR_FADE_DELAY * 2 + id * 0.05} key={post.slug}>
           <Link
             className="flex flex-col space-y-1 mb-4"
-            href={`/blog/${post.slug}`}
+            href={`/${basePath}/${post.slug}`}
           >
             <div className="w-full flex flex-col">
               <p className="tracking-tight">{post.metadata.title}</p>

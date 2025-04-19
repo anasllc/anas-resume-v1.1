@@ -40,7 +40,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/cryptonews", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "yourcryptowriter@gmail.com",
@@ -270,7 +270,7 @@ export const DATA = {
       links: [
         {
           type: "Articles",
-          href: "/blog",
+          href: "/cryptonews",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -292,6 +292,23 @@ export const DATA = {
         },
       ],
       image: "/grad1.jpg",
+      video: "",
+    },
+    {
+      title: "FelloAI",
+      href: "https://felloai.com",
+      dates: "",
+      active: true,
+      description: "",
+      skills: ["Article Writing", "Blog Writing"],
+      links: [
+        {
+          type: "Articles",
+          href: "/ai-articles",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/grad4.jpg",
       video: "",
     },
     {
@@ -333,23 +350,23 @@ export const DATA = {
       image: "/grad3.jpg",
       video: "",
     },
-    // {
-    //   title: "Hackernoon",
-    //   href: "https://hackernoon.com",
-    //   dates: "",
-    //   active: true,
-    //   description: "",
-    //   skills: ["Article Writing", "Blog Writing"],
-    //   links: [
-    //     {
-    //       type: "Profile",
-    //       href: "https://hackernoon.com/u/hunais",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/grad4.jpg",
-    //   video: "",
-    // },
+    {
+      title: "Hackernoon",
+      href: "https://hackernoon.com",
+      dates: "",
+      active: true,
+      description: "",
+      skills: ["Article Writing", "Blog Writing"],
+      links: [
+        {
+          type: "Profile",
+          href: "https://hackernoon.com/u/hunais",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/grad4.jpg",
+      video: "",
+    },
   ],
   featured: [
     {
