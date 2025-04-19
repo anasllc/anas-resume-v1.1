@@ -40,7 +40,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "yourcryptowriter@gmail.com",
@@ -67,12 +67,12 @@ export const DATA = {
 
         navbar: true,
       },
-      Hashnode: {
-        name: "Hashnode",
-        url: "https://anashassan.hashnode.dev/",
-        icon: Icons.hashnode,
-        navbar: true,
-      },
+      // Hashnode: {
+      //   name: "Hashnode",
+      //   url: "https://anashassan.hashnode.dev/",
+      //   icon: Icons.hashnode,
+      //   navbar: true,
+      // },
       email: {
         name: "Send Email",
         url: "mailto:yourcryptowriter@gmail.com",
@@ -261,6 +261,23 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Cryptonews",
+      href: "https://cryptonews.com",
+      dates: "",
+      active: true,
+      description: "",
+      skills: ["Journalism", "Article Writing", "Editing", "Blog Writing"],
+      links: [
+        {
+          type: "Articles",
+          href: "/blog",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/grad4.jpg",
+      video: "",
+    },
+    {
       title: "Coinwaft",
       href: "https://coinwaft.com",
       dates: "",
@@ -316,23 +333,23 @@ export const DATA = {
       image: "/grad3.jpg",
       video: "",
     },
-    {
-      title: "Hackernoon",
-      href: "https://hackernoon.com",
-      dates: "",
-      active: true,
-      description: "",
-      skills: ["Article Writing", "Blog Writing"],
-      links: [
-        {
-          type: "Profile",
-          href: "https://hackernoon.com/u/hunais",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/grad4.jpg",
-      video: "",
-    },
+    // {
+    //   title: "Hackernoon",
+    //   href: "https://hackernoon.com",
+    //   dates: "",
+    //   active: true,
+    //   description: "",
+    //   skills: ["Article Writing", "Blog Writing"],
+    //   links: [
+    //     {
+    //       type: "Profile",
+    //       href: "https://hackernoon.com/u/hunais",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/grad4.jpg",
+    //   video: "",
+    // },
   ],
   featured: [
     {
