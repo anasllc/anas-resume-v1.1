@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://anashassan.me",
   location: "Nigeria",
   locationLink: "https://www.google.com/maps/place/nigeria",
-  description: "Senior Writer, Journalist, & Research Analyst",
+  description: "Experienced Writer, Journalist, & Research Analyst",
   summary:
     "Hardworking, highly motivated professional in crypto with solid technical background. Operates well in both individual and team capacities, leveraging seasoned work ethic to quickly adapt to different processes and drive company objectives. Resourceful and results-driven with a passion for growth and efficiency to meet company needs and increase service value.",
   avatarUrl:
@@ -330,7 +330,7 @@ export const DATA = {
     },
     {
       title: "IYOPS",
-      href: "https://llm.report",
+      href: "https://www.iyops.org",
       dates: "",
       active: true,
       description: "",
