@@ -11,7 +11,7 @@ export default async function CryptoNewsPage() {
     <InfiniteScrollPosts
       initialPosts={initialPosts}
       apiPath="/api/blog-posts"
-      basePath="cryptonews"
+      basePath="archive"
     />
   );
 }
