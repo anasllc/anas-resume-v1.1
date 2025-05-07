@@ -2,7 +2,7 @@ import { fetchBlogPosts } from "@/lib/wp-client";
 import { InfiniteScrollPosts } from "@/components/infinite-scroll-posts";
 
 export const metadata = {
-  title: "Crypto News",
+  title: "Crypto Contents Archive",
 };
 
 export default async function CryptoNewsPage() {

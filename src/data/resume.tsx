@@ -40,7 +40,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/cryptonews", icon: NotebookIcon, label: "Blog" },
+    { href: "/archive", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "yourcryptowriter@gmail.com",
@@ -261,8 +261,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Cryptonews",
-      href: "https://cryptonews.com",
+      title: "Crypto Content Archive",
+      href: "/archive",
       dates: "",
       active: true,
       description: "",
@@ -270,7 +270,7 @@ export const DATA = {
       links: [
         {
           type: "Articles",
-          href: "/cryptonews",
+          href: "/archive",
           icon: <Icons.globe className="size-3" />,
         },
       ],
