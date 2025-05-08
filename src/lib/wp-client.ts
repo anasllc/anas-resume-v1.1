@@ -20,14 +20,20 @@ export async function fetchBlogPosts(page: number = 1): Promise<BlogPost[]> {
   try {
     const res = await fetch(
       `https://cryptonews.com/wp-json/wp/v2/posts?author=316&per_page=100&page=${page}`,
-      { cache: "no-store" } // Disable caching for large responses
+      { cache: "no-store" }
     );
 
     if (!res.ok) throw new Error(`Failed to fetch posts: ${res.status}`);
 
     const posts: WordPressPost[] = await res.json();
 
-    return posts.map((post) => ({
+    // Filter out posts after May 6, 2025 (UTC)
+    const cutoffDate = new Date("2025-05-07"); // May 7th 00:00:00 UTC
+    const filteredPosts = posts.filter(
+      (post) => new Date(post.date) < cutoffDate
+    );
+
+    return filteredPosts.map((post) => ({
       slug: post.slug,
       metadata: {
         title: he.decode(post.title.rendered),
