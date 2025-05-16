@@ -7,11 +7,12 @@ export const DATA = {
   url: "https://anashassan.me",
   location: "Nigeria",
   locationLink: "https://www.google.com/maps/place/nigeria",
-  description: "Experienced Writer, Journalist, & Research Analyst",
+  description:
+    "All Things Web3 Content, SEO Technical Writer, & Research Analyst",
   summary:
     "Hardworking, highly motivated professional in crypto with solid technical background. Operates well in both individual and team capacities, leveraging seasoned work ethic to quickly adapt to different processes and drive company objectives. Resourceful and results-driven with a passion for growth and efficiency to meet company needs and increase service value.",
   avatarUrl:
-    "https://media.licdn.com/dms/image/v2/D4D03AQHH7_CVH5L6fw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715374842923?e=1747267200&v=beta&t=rRgybRHlP9eSsxyltZc_YhKBGuvyHPsw95peBqebyfw",
+    "https://media.licdn.com/dms/image/v2/D4D03AQHH7_CVH5L6fw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715374842923?e=1752710400&v=beta&t=2zedIVL_sMIllXU45hYqFCyoMvSanrHPJiDott9hX0Y",
   skills: [
     "Creative writing",
     "Technical writing",
@@ -37,6 +38,8 @@ export const DATA = {
     "React",
     "NextJS",
     "NodeJS",
+    "Rust",
+    "Solidity",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
