@@ -84,19 +84,19 @@ export const DATA = {
   },
 
   work: [
-    // {
-    //   company: "Coingecko",
-    //   href: "https://www.coingecko.com/",
-    //   badges: [],
-    //   location: "Remote",
-    //   title: "Research Analyst & Crypto Data Writer",
-    //   logoUrl:
-    //     "https://pbs.twimg.com/profile_images/1604796574415978496/SIffz3a6_400x400.jpg",
-    //   start: "May 2021",
-    //   end: "Oct 2022",
-    //   description:
-    //     "Wrote and edited content for a range of clients, including startups, businesses, and government agencies. Developed and executed strategies to improve website traffic and engagement. Collaborated with designers and developers to create visually appealing and engaging content.",
-    // },
+    {
+      company: "SOAX",
+      href: "https://soax.com/blog/author/anas-hassan",
+      badges: [],
+      location: "Remote",
+      title: "SEO Technical Writer",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/C4D0BAQF65FS-gM74fQ/company-logo_200_200/company-logo_200_200/0/1663682342986/soax_network_logo?e=1752710400&v=beta&t=Yw7qo2ya5HETNFAlNMegD4ZSKn9Xv4a82TIM1dHDWP8",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "As a Technical Writer at SOAX, my responsibilities include writing a well researched SEO optimized technical guides, and tutorials to help users effectively choose, utilize SOAX's proxy solutions and rank well in search engines.",
+    },
     {
       company: "SZ Media Agency",
       href: "#",
@@ -292,6 +292,23 @@ export const DATA = {
         },
       ],
       image: "/grad1.jpg",
+      video: "",
+    },
+    {
+      title: "SOAX",
+      href: "https://soax.com",
+      dates: "",
+      active: true,
+      description: "",
+      skills: ["Technical Writing", "SEO"],
+      links: [
+        {
+          type: "Profile",
+          href: "https://soax.com/blog/author/anas-hassan",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/grad3.jpg",
       video: "",
     },
     {
