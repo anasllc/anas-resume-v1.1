@@ -107,7 +107,7 @@ export const DATA = {
       location: "Remote",
       title: "Crypto & AI Content Editor",
       logoUrl: "",
-      start: "Mar 2024",
+      start: "July 2024",
       end: "April 2025",
       description:
         "I am responsible for editing crypto news and topics from high-profile clients such as Cryptonews, Coinbrain, and FelloAI. My role involves developing high-quality content strategies centered around AI, as well as editing both technical and non-technical AI articles. Additionally, I manage a team of writers, overseeing their performance to ensure the delivery of top-notch content.",
