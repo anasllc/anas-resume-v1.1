@@ -171,7 +171,7 @@ export const DATA = {
       location: "Remote",
       title: "Content Writer",
       logoUrl:
-        "https://pbs.twimg.com/profile_images/1894713914400681984/jXF2cN7h_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1904838098657140737/SQRpKFtc_400x400.jpg",
       start: "Dec 2022",
       end: "Aug 2023",
       description:
@@ -281,8 +281,25 @@ export const DATA = {
       video: "",
     },
     {
+      title: "P2E Games Archive",
+      href: "/games",
+      dates: "",
+      active: true,
+      description: "",
+      skills: ["Article Writing", "Blog Writing", "Gaming"],
+      links: [
+        {
+          type: "Articles",
+          href: "/games",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/grad2.jpg",
+      video: "",
+    },
+    {
       title: "Coinwaft",
-      href: "https://coinwaft.com",
+      href: "https://coinwaft.com/authors/anas",
       dates: "",
       active: true,
       description: "",
@@ -299,7 +316,7 @@ export const DATA = {
     },
     {
       title: "SOAX",
-      href: "https://soax.com",
+      href: "https://soax.com/blog/author/anas-hassan",
       dates: "",
       active: true,
       description: "",
@@ -316,11 +333,11 @@ export const DATA = {
     },
     {
       title: "FelloAI",
-      href: "https://felloai.com",
+      href: "/ai-articles",
       dates: "",
       active: true,
       description: "",
-      skills: ["Article Writing", "Blog Writing"],
+      skills: ["Article Writing", "Blog Writing", "AI"],
       links: [
         {
           type: "Articles",
@@ -333,7 +350,7 @@ export const DATA = {
     },
     {
       title: "Hashnode",
-      href: "https://hashnode.dev",
+      href: "https://anashassan.hashnode.dev/",
       dates: "",
       active: true,
       description: "",
@@ -354,7 +371,7 @@ export const DATA = {
       dates: "",
       active: true,
       description: "",
-      skills: ["Article Writing", "Editing", "Blog Writing"],
+      skills: ["Article Writing", "Blog Writing"],
       links: [
         {
           type: "Article 1",
