@@ -429,6 +429,13 @@ export const DATA = {
     },
     {
       logoUrl:
+        "https://pbs.twimg.com/profile_images/1904838098657140737/SQRpKFtc_400x400.jpg",
+      altText: "socialgames.com",
+      description: "Socialgames",
+      href: "https://socialgames.com/",
+    },
+    {
+      logoUrl:
         "https://media.licdn.com/dms/image/v2/D560BAQH-LeNtaQKlXA/company-logo_200_200/B56ZWJu7z9GoAM-/0/1741772537616/techopedia_logo?e=1750291200&v=beta&t=-Dw4wfQ24Ua3i96gvuBJasPd6QxyW5zTRGP-4XW2V2w",
       altText: "Techopedia",
       description: "Techopedia",
