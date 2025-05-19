@@ -117,7 +117,7 @@ export default function Page() {
           <h2 className="text-xl font-bold pb-2">Featured</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 12}>
-          <div className="flex flex-row gap-x-4">
+          <div className="flex flex-row gap-x-4 flex-wrap">
             {DATA.featured.map((featured) => (
               <FeaturedCard
                 key={featured.description}
