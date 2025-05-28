@@ -63,13 +63,13 @@ export const DATA = {
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://x.com/0xbytenary",
-        icon: Icons.x,
+      // X: {
+      //   name: "X",
+      //   url: "https://x.com/0xbytenary",
+      //   icon: Icons.x,
 
-        navbar: true,
-      },
+      //   navbar: true,
+      // },
       // Hashnode: {
       //   name: "Hashnode",
       //   url: "https://anashassan.hashnode.dev/",
