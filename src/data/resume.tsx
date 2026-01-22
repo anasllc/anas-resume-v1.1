@@ -12,7 +12,7 @@ export const DATA = {
   summary:
     "Hardworking, highly motivated professional in crypto with solid technical background. Operates well in both individual and team capacities, leveraging seasoned work ethic to quickly adapt to different processes and drive company objectives. Resourceful and results-driven with a passion for growth and efficiency to meet company needs and increase service value.",
   avatarUrl:
-    "https://media.licdn.com/dms/image/v2/D4D03AQHH7_CVH5L6fw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715374842923?e=1752710400&v=beta&t=2zedIVL_sMIllXU45hYqFCyoMvSanrHPJiDott9hX0Y",
+    "https://media.licdn.com/dms/image/v2/D4D03AQHH7_CVH5L6fw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1715374842923?e=1770854400&v=beta&t=ctv21HqX-2tin6wP6zYEYOYsrxO50MxhQAeE0snebmQ",
   skills: [
     "Creative writing",
     "Technical writing",
@@ -88,15 +88,41 @@ export const DATA = {
 
   work: [
     {
+      company: "Coingape",
+      href: "https://coingape.com/author/anas/",
+      badges: [],
+      location: "Remote",
+      title: "Advertorial Editor",
+      logoUrl:
+        "https://pbs.twimg.com/profile_images/1799048156619173888/wzDONv2D_400x400.jpg",
+      start: "Aug 2025",
+      end: "Present",
+      description:
+        "I edit and publish advertorials for clients, ensuring that the content is accurate, engaging, and informative for our audience.",
+    },
+    {
+      company: "Cryptonews",
+      href: "https://cryptonews.com/editors/anas-hassan/",
+      badges: [],
+      location: "Remote",
+      title: "Journalist",
+      logoUrl:
+        "https://pbs.twimg.com/profile_images/1770513143741009920/MpPRkEzE_400x400.png",
+      start: "June 2026",
+      end: "Present",
+      description:
+        "I write engaging content on crypto news and topics, conducting in-depth research on crypto news and market analysis. I also optimize articles for SEO to improve search rankings, ensuring our content reaches a wide audience of crypto enthusiasts.",
+    },
+    {
       company: "SOAX",
       href: "https://soax.com/blog/author/anas-hassan",
       badges: [],
       location: "Remote",
       title: "SEO Technical Writer",
       logoUrl:
-        "https://media.licdn.com/dms/image/v2/C4D0BAQF65FS-gM74fQ/company-logo_200_200/company-logo_200_200/0/1663682342986/soax_network_logo?e=1752710400&v=beta&t=Yw7qo2ya5HETNFAlNMegD4ZSKn9Xv4a82TIM1dHDWP8",
+        "https://s3-eu-west-1.amazonaws.com/tpd/logos/5df1313c3c52d7000197e86d/0x0.png",
       start: "May 2025",
-      end: "Present",
+      end: "Dec 2025",
       description:
         "As a Technical Writer at SOAX, my responsibilities include writing a well researched SEO optimized technical guides, and tutorials to help users effectively choose, utilize SOAX's proxy solutions and rank well in search engines.",
     },
@@ -263,6 +289,23 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Cryptonews",
+      href: "https://cryptonews.com/editors/anas-hassan/",
+      dates: "",
+      active: true,
+      description: "",
+      skills: ["Journalism", "Article Writing", "Editing", "Blog Writing"],
+      links: [
+        {
+          type: "Profile",
+          href: "https://cryptonews.com/editors/anas-hassan/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/grad1.jpg",
+      video: "",
+    },
     {
       title: "Crypto Content Archive",
       href: "/archive",
