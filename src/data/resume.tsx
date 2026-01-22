@@ -8,7 +8,7 @@ export const DATA = {
   location: "Nigeria",
   locationLink: "https://www.google.com/maps/place/nigeria",
   description:
-    "All Things Web3 Content, SEO Technical Writer, & Research Analyst",
+    "Journalist, SEO Technical Writer, & Research Analyst",
   summary:
     "Hardworking, highly motivated professional in crypto with solid technical background. Operates well in both individual and team capacities, leveraging seasoned work ethic to quickly adapt to different processes and drive company objectives. Resourceful and results-driven with a passion for growth and efficiency to meet company needs and increase service value.",
   avatarUrl:
