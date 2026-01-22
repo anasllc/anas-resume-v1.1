@@ -108,7 +108,7 @@ export const DATA = {
       title: "Journalist",
       logoUrl:
         "https://pbs.twimg.com/profile_images/1770513143741009920/MpPRkEzE_400x400.png",
-      start: "June 2026",
+      start: "June 2025",
       end: "Present",
       description:
         "I write engaging content on crypto news and topics, conducting in-depth research on crypto news and market analysis. I also optimize articles for SEO to improve search rankings, ensuring our content reaches a wide audience of crypto enthusiasts.",
