@@ -88,19 +88,6 @@ export const DATA = {
 
   work: [
     {
-      company: "Coingape",
-      href: "https://coingape.com/author/anas/",
-      badges: [],
-      location: "Remote",
-      title: "Advertorial Editor",
-      logoUrl:
-        "https://pbs.twimg.com/profile_images/1799048156619173888/wzDONv2D_400x400.jpg",
-      start: "Aug 2025",
-      end: "Present",
-      description:
-        "I edit and publish advertorials for clients, ensuring that the content is accurate, engaging, and informative for our audience.",
-    },
-    {
       company: "Cryptonews",
       href: "https://cryptonews.com/editors/anas-hassan/",
       badges: [],
@@ -112,6 +99,19 @@ export const DATA = {
       end: "Present",
       description:
         "I write engaging content on crypto news and topics, conducting in-depth research on crypto news and market analysis. I also optimize articles for SEO to improve search rankings, ensuring our content reaches a wide audience of crypto enthusiasts.",
+    },
+    {
+      company: "Coingape",
+      href: "https://coingape.com/author/anas/",
+      badges: [],
+      location: "Remote",
+      title: "Advertorial Editor",
+      logoUrl:
+        "https://pbs.twimg.com/profile_images/1799048156619173888/wzDONv2D_400x400.jpg",
+      start: "Aug 2025",
+      end: "Jan 2026",
+      description:
+        "I edit and publish advertorials for clients, ensuring that the content is accurate, engaging, and informative for our audience.",
     },
     {
       company: "SOAX",
